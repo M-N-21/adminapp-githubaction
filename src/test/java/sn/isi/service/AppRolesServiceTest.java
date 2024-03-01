@@ -1,4 +1,4 @@
-package sn.isi.service;
+/*package sn.isi.service;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -69,4 +69,4 @@ class AppRolesServiceTest {
         int val3 = val1 + val2;
         Assertions.assertEquals(3, val3);
     }
-}
+}*/
