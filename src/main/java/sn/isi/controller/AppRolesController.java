@@ -1,8 +1,6 @@
 package sn.isi.controller;
 
-import com.sun.istack.internal.logging.Logger;
 import lombok.AllArgsConstructor;
-import org.hibernate.annotations.common.util.impl.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import sn.isi.dto.AppRoles;
