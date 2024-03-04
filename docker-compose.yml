@@ -1,15 +1,36 @@
-version: '3'
+version: '3.9'
+
 services:
-  app:
-    image: mn21/admin-app:latest
-    ports:
-      - "8081:8081"
-    depends_on:
-      - db
-  db:
-    image: mysql:latest
-    ports:
-      - "3306:3306"
+  mysql-admin-db:
+    image: mysql:8.0
+    container_name: container_mysql-admin-db
     environment:
-      MYSQL_ROOT_PASSWORD:
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: adminapp-db
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u $$MYSQL_USER --password=$$MYSQL_PASSWORD
+
+
+  phpmyadmin-admin-db:
+    container_name: container_phpmyadmin-admindb
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8085:80
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      PMA_HOST: mysql-admin-db
+      PMA_USER: root
+      PMA_PASSWORD:
+    depends_on:
+      - mysql-admin-db
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+    driver: local
