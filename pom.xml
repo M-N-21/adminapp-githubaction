@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>sn.isi</groupId>
 	<artifactId>admin-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>admin-app</name>
 	<description>Administration d&apos;une application de gestion de produits</description>
 	<properties>
