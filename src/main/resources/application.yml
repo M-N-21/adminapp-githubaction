@@ -19,11 +19,11 @@ spring:
             scope: openid
         provider:
           keycloak:
-            issuer-uri: http://localhost:8080/realms/SpringBootKeycloak
+            issuer-uri: http://127.0.0.1:8080/realms/SpringBootKeycloak/account/
             user-name-attribute: preferred_username
       resourceserver:
         jwt:
-          issuer-uri: http://localhost/realms/SpringBootKeycloak
+          issuer-uri: http://localhost/realms/SpringBootKeycloak/account/
   jpa:
     hibernate:
       ddl-auto: update
