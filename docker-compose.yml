@@ -3,7 +3,7 @@ version: '3.9'
 services:
   mysql-admin-db:
     image: mysql:8.0
-    container_name: container_mysql-admin-db
+    container_name: mysql-admin-db
     environment:
       MYSQL_ROOT_PASSWORD:
       MYSQL_DATABASE: adminapp-db
@@ -28,6 +28,15 @@ services:
       PMA_HOST: mysql-admin-db
       PMA_USER: root
       PMA_PASSWORD:
+    depends_on:
+      - mysql-admin-db
+    restart: unless-stopped
+
+  admin-app:
+    container_name: admin-app
+    image: mn21/admin-app:1.0
+    ports:
+      - "8081:8081"
     depends_on:
       - mysql-admin-db
     restart: unless-stopped
