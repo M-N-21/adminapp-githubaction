@@ -1,0 +1,64 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: keycloak-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: keycloak
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: keycloak
+  template:
+    metadata:
+      labels:
+        app: keycloak
+    spec:
+      containers:
+        - name: keycloak
+          image: quay.io/keycloak/keycloak:latest
+          env:
+            - name: DB_VENDOR
+              value: h2
+            - name: DB_DATABASE
+              value: keycloak
+            - name: DB_USERNAME
+              value: keycloak
+            - name: DB_PASSWORD
+              value: keycloak
+            - name: KEYCLOAK_ADMIN
+              value: admin
+            - name: KEYCLOAK_ADMIN_PASSWORD
+              value: admin
+          ports:
+            - containerPort: 8080
+          command: ["/opt/keycloak/bin/kc.sh", "start-dev"]
+          volumeMounts:
+            - name: keycloak-h2-data
+              mountPath: /opt/jboss/keycloak/standalone/data
+      volumes:
+        - name: keycloak-h2-data
+          persistentVolumeClaim:
+            claimName: keycloak-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: keycloak
+spec:
+  type: NodePort  # Change le type de service à NodePort
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30000  # Port de nœud que vous exposez pour accéder au service depuis l'extérieur
+  selector:
+    app: keycloak

@@ -5,12 +5,13 @@ services:
     image: mysql:8.0
     container_name: container_mysql-admin-db
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD:
       MYSQL_DATABASE: adminapp-db
       MYSQL_USER: root
       MYSQL_PASSWORD:
+      mysql_allow_empty_password: true
     ports:
-      - 3306:3306
+      - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
@@ -21,7 +22,7 @@ services:
     container_name: container_phpmyadmin-admindb
     image: phpmyadmin/phpmyadmin:latest
     ports:
-      - 8085:80
+      - "8085:80"
     environment:
       MYSQL_ROOT_PASSWORD: root
       PMA_HOST: mysql-admin-db
@@ -31,6 +32,61 @@ services:
       - mysql-admin-db
     restart: unless-stopped
 
+  # postgres service
+  postgres-service:
+    image: postgres:13.14-alpine3.19
+    container_name: postgres-service
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: keycloak_db
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: passer
+    ports:
+      - '5432:5432'
+    expose:
+      - '5432'
+
+  # pgadmin interface web pour l'administration de postgresql
+  pgadmin4-service:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin4
+    restart: always
+    ports:
+      - "8888:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: mody@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: passer
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+
+  # keycloak
+  keycloak-service:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: container_keycloak-admin-db
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres-service:5432/keycloak_db
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: passer
+      KEYCLOAK_ADMIN: admin
+      KC_HTTP_ENABLED: "true"
+      KC_HOSTNAME_STRICT_HTTPS: "false"
+      KEYCLOAK_ADMIN_PASSWORD: passer
+    command:
+      - start-dev
+    restart: always
+    ports:
+      - '8080:8080'
+    expose:
+      - '8080'
+    depends_on:
+      - postgres-service
+
 volumes:
   mysql_data:
+    driver: local
+  postgres_data:
+    driver: local
+  pgadmin_data:
     driver: local
