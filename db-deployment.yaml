@@ -44,3 +44,16 @@ spec:
         - name: data
           persistentVolumeClaim:
             claimName: adminapp-db-pvc
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: adminapp-db
+spec:
+  type: NodePort  # Change le type de service à NodePort
+  ports:
+    - port: 3306
+      targetPort: 3306
+  selector:
+    app: adminapp-db
