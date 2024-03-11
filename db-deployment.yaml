@@ -27,6 +27,8 @@ spec:
         - name: mysql
           image: mysql:8.0
           env:
+            - name: DB_HOST
+              value: mysql
             - name: MYSQL_ROOT_PASSWORD
               value: ""
             - name: MYSQL_DATABASE

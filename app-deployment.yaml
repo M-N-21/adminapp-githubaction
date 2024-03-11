@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: springboot-k8s-mysql
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
@@ -14,16 +14,19 @@ spec:
     spec:
       containers:
         - name: springboot-crud-k8s
-          image: springboot-crud-k8s:1.0
+          image: mn21/admin-app:1.0
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
+            - name: DB_HOST
+              value: mysql
             - name: MYSQL_ROOT_PASSWORD
               value: ""
             - name: MYSQL_DATABASE
               value: adminapp-db
             - name: MYSQL_ALLOW_EMPTY_PASSWORD
               value: "yes"
+
 
 ---
 
