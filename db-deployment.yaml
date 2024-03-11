@@ -40,10 +40,14 @@ spec:
           volumeMounts:
             - name: data
               mountPath: /var/lib/mysql
+          command:
+            - mysqld
+            - --bind-address=0.0.0.0  # Permet les connexions distantes
       volumes:
         - name: data
           persistentVolumeClaim:
             claimName: adminapp-db-pvc
+
 
 ---
 apiVersion: v1
