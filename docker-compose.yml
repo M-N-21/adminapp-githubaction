@@ -32,16 +32,6 @@ services:
       - mysql-admin-db
     restart: unless-stopped
 
-  admin-app:
-    container_name: admin-app
-    image: mn21/admin-app:1.0
-    ports:
-      - "8081:8081"
-    depends_on:
-      - mysql-admin-db
-      - keycloak-service
-    #restart: unless-stopped
-
   # postgres service
   postgres-service:
     image: postgres:13.14-alpine3.19
@@ -92,6 +82,16 @@ services:
       - '8080'
     depends_on:
       - postgres-service
+
+  admin-app:
+    container_name: admin-app
+    image: mn21/admin-app:1.0
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mysql-admin-db
+      - keycloak-service
+    #restart: unless-stopped
 
 volumes:
   mysql_data:
