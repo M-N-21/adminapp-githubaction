@@ -28,7 +28,7 @@ spec:
           image: mysql:8.0
           env:
             - name: DB_HOST
-              value: mysql
+              value: adminapp-db
             - name: MYSQL_ROOT_PASSWORD
               value: ""
             - name: MYSQL_DATABASE

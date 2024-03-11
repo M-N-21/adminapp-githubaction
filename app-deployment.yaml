@@ -19,7 +19,7 @@ spec:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
             - name: DB_HOST
-              value: mysql
+              value: adminapp-db
             - name: MYSQL_ROOT_PASSWORD
               value: ""
             - name: MYSQL_DATABASE
