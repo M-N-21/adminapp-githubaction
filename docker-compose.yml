@@ -39,6 +39,7 @@ services:
       - "8081:8081"
     depends_on:
       - mysql-admin-db
+      - keycloak-service
     #restart: unless-stopped
 
   # postgres service
