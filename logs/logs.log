@@ -100473,3 +100473,2210 @@
   "threadPriority" : 5,
   "service" : "admin-app"
 }
+{
+  "instant" : {
+    "epochSecond" : 1710173583,
+    "nanoOfSecond" : 16000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "sn.isi.AdminAppApplication",
+  "message" : "Starting AdminAppApplication using Java 1.8.0_251 on MODY-NDIAYE with PID 21024 (C:\\Users\\modyn\\OneDrive\\Documents\\M2GL\\JEE\\admin-app\\target\\classes started by modyn in C:\\Users\\modyn\\OneDrive\\Documents\\M2GL\\JEE\\admin-app)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173582,
+    "nanoOfSecond" : 976000000
+  },
+  "thread" : "background-preinit",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 6.2.4.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.validator.internal.util.logging.Log_$logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173583,
+    "nanoOfSecond" : 70000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "sn.isi.AdminAppApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173583,
+    "nanoOfSecond" : 115000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173583,
+    "nanoOfSecond" : 116000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173583,
+    "nanoOfSecond" : 890000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173583,
+    "nanoOfSecond" : 959000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173584,
+    "nanoOfSecond" : 799000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8081 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173584,
+    "nanoOfSecond" : 814000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8081\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173584,
+    "nanoOfSecond" : 815000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173584,
+    "nanoOfSecond" : 815000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.65]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173584,
+    "nanoOfSecond" : 948000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173584,
+    "nanoOfSecond" : 948000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1831 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173585,
+    "nanoOfSecond" : 179000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173585,
+    "nanoOfSecond" : 234000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.10.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173585,
+    "nanoOfSecond" : 407000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.annotations.common.util.impl.Log_$logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173585,
+    "nanoOfSecond" : 523000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173586,
+    "nanoOfSecond" : 660000000
+  },
+  "thread" : "restartedMain",
+  "level" : "ERROR",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Exception during pool initialization.",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+    "message" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+    "name" : "com.mysql.cj.jdbc.exceptions.CommunicationsException",
+    "cause" : {
+      "commonElementCount" : 54,
+      "localizedMessage" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "message" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "name" : "com.mysql.cj.exceptions.CJCommunicationsException",
+      "cause" : {
+        "commonElementCount" : 54,
+        "localizedMessage" : "adminapp-db.default.svc.cluster.local",
+        "message" : "adminapp-db.default.svc.cluster.local",
+        "name" : "java.net.UnknownHostException",
+        "extendedStackTrace" : [ {
+          "class" : "java.net.Inet6AddressImpl",
+          "method" : "lookupAllHostAddr",
+          "file" : "Inet6AddressImpl.java",
+          "line" : -2,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress$2",
+          "method" : "lookupAllHostAddr",
+          "file" : "InetAddress.java",
+          "line" : 929,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAddressesFromNameService",
+          "file" : "InetAddress.java",
+          "line" : 1324,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAllByName0",
+          "file" : "InetAddress.java",
+          "line" : 1277,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAllByName",
+          "file" : "InetAddress.java",
+          "line" : 1193,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAllByName",
+          "file" : "InetAddress.java",
+          "line" : 1127,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "com.mysql.cj.protocol.StandardSocketFactory",
+          "method" : "connect",
+          "file" : "StandardSocketFactory.java",
+          "line" : 130,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.protocol.a.NativeSocketConnection",
+          "method" : "connect",
+          "file" : "NativeSocketConnection.java",
+          "line" : 63,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.NativeSession",
+          "method" : "connect",
+          "file" : "NativeSession.java",
+          "line" : 120,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+          "method" : "connectOneTryOnly",
+          "file" : "ConnectionImpl.java",
+          "line" : 948,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+          "method" : "createNewIO",
+          "file" : "ConnectionImpl.java",
+          "line" : 818,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        } ]
+      },
+      "extendedStackTrace" : [ {
+        "class" : "sun.reflect.NativeConstructorAccessorImpl",
+        "method" : "newInstance0",
+        "file" : "NativeConstructorAccessorImpl.java",
+        "line" : -2,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "sun.reflect.NativeConstructorAccessorImpl",
+        "method" : "newInstance",
+        "file" : "NativeConstructorAccessorImpl.java",
+        "line" : 62,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "sun.reflect.DelegatingConstructorAccessorImpl",
+        "method" : "newInstance",
+        "file" : "DelegatingConstructorAccessorImpl.java",
+        "line" : 45,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "java.lang.reflect.Constructor",
+        "method" : "newInstance",
+        "file" : "Constructor.java",
+        "line" : 423,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createException",
+        "file" : "ExceptionFactory.java",
+        "line" : 61,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createException",
+        "file" : "ExceptionFactory.java",
+        "line" : 105,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createException",
+        "file" : "ExceptionFactory.java",
+        "line" : 151,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createCommunicationsException",
+        "file" : "ExceptionFactory.java",
+        "line" : 167,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.protocol.a.NativeSocketConnection",
+        "method" : "connect",
+        "file" : "NativeSocketConnection.java",
+        "line" : 89,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.NativeSession",
+        "method" : "connect",
+        "file" : "NativeSession.java",
+        "line" : 120,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+        "method" : "connectOneTryOnly",
+        "file" : "ConnectionImpl.java",
+        "line" : 948,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+        "method" : "createNewIO",
+        "file" : "ConnectionImpl.java",
+        "line" : 818,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      } ]
+    },
+    "extendedStackTrace" : [ {
+      "class" : "com.mysql.cj.jdbc.exceptions.SQLError",
+      "method" : "createCommunicationsException",
+      "file" : "SQLError.java",
+      "line" : 174,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping",
+      "method" : "translateException",
+      "file" : "SQLExceptionsMapping.java",
+      "line" : 64,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+      "method" : "createNewIO",
+      "file" : "ConnectionImpl.java",
+      "line" : 828,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+      "method" : "<init>",
+      "file" : "ConnectionImpl.java",
+      "line" : 448,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+      "method" : "getInstance",
+      "file" : "ConnectionImpl.java",
+      "line" : 241,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.NonRegisteringDriver",
+      "method" : "connect",
+      "file" : "NonRegisteringDriver.java",
+      "line" : 198,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.zaxxer.hikari.util.DriverDataSource",
+      "method" : "getConnection",
+      "file" : "DriverDataSource.java",
+      "line" : 138,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.PoolBase",
+      "method" : "newConnection",
+      "file" : "PoolBase.java",
+      "line" : 364,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.PoolBase",
+      "method" : "newPoolEntry",
+      "file" : "PoolBase.java",
+      "line" : 206,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.HikariPool",
+      "method" : "createPoolEntry",
+      "file" : "HikariPool.java",
+      "line" : 476,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.HikariPool",
+      "method" : "checkFailFast",
+      "file" : "HikariPool.java",
+      "line" : 561,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.HikariPool",
+      "method" : "<init>",
+      "file" : "HikariPool.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.HikariDataSource",
+      "method" : "getConnection",
+      "file" : "HikariDataSource.java",
+      "line" : 112,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl",
+      "method" : "getConnection",
+      "file" : "DatasourceConnectionProviderImpl.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess",
+      "method" : "obtainConnection",
+      "file" : "JdbcEnvironmentInitiator.java",
+      "line" : 181,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator",
+      "method" : "initiateService",
+      "file" : "JdbcEnvironmentInitiator.java",
+      "line" : 68,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator",
+      "method" : "initiateService",
+      "file" : "JdbcEnvironmentInitiator.java",
+      "line" : 35,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.boot.registry.internal.StandardServiceRegistryImpl",
+      "method" : "initiateService",
+      "file" : "StandardServiceRegistryImpl.java",
+      "line" : 101,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "createService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 263,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "initializeService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 237,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "getService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 214,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory",
+      "method" : "injectServices",
+      "file" : "DefaultIdentifierGeneratorFactory.java",
+      "line" : 175,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "injectDependencies",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 286,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "initializeService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 243,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "getService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 214,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.boot.internal.InFlightMetadataCollectorImpl",
+      "method" : "<init>",
+      "file" : "InFlightMetadataCollectorImpl.java",
+      "line" : 173,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.boot.model.process.spi.MetadataBuildingProcess",
+      "method" : "complete",
+      "file" : "MetadataBuildingProcess.java",
+      "line" : 127,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+      "method" : "metadata",
+      "file" : "EntityManagerFactoryBuilderImpl.java",
+      "line" : 1460,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+      "method" : "build",
+      "file" : "EntityManagerFactoryBuilderImpl.java",
+      "line" : 1494,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+      "method" : "createContainerEntityManagerFactory",
+      "file" : "SpringHibernateJpaPersistenceProvider.java",
+      "line" : 58,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+      "method" : "createNativeEntityManagerFactory",
+      "file" : "LocalContainerEntityManagerFactoryBean.java",
+      "line" : 365,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "method" : "buildNativeEntityManagerFactory",
+      "file" : "AbstractEntityManagerFactoryBean.java",
+      "line" : 409,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "method" : "afterPropertiesSet",
+      "file" : "AbstractEntityManagerFactoryBean.java",
+      "line" : 396,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+      "method" : "afterPropertiesSet",
+      "file" : "LocalContainerEntityManagerFactoryBean.java",
+      "line" : 341,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "invokeInitMethods",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 1863,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "initializeBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 1800,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "doCreateBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 620,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "createBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 542,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "lambda$doGetBean$0",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 335,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.DefaultSingletonBeanRegistry",
+      "method" : "getSingleton",
+      "file" : "DefaultSingletonBeanRegistry.java",
+      "line" : 234,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "doGetBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 333,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "getBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 208,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "getBean",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 1154,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "finishBeanFactoryInitialization",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 908,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "refresh",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 583,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+      "method" : "refresh",
+      "file" : "ServletWebServerApplicationContext.java",
+      "line" : 147,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refresh",
+      "file" : "SpringApplication.java",
+      "line" : 734,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refreshContext",
+      "file" : "SpringApplication.java",
+      "line" : 408,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 308,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1306,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1295,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "sn.isi.AdminAppApplication",
+      "method" : "main",
+      "file" : "AdminAppApplication.java",
+      "line" : 10,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 62,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "sun.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 498,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "org.springframework.boot.devtools.restart.RestartLauncher",
+      "method" : "run",
+      "file" : "RestartLauncher.java",
+      "line" : 49,
+      "exact" : false,
+      "location" : "spring-boot-devtools-2.7.3.jar",
+      "version" : "2.7.3"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173586,
+    "nanoOfSecond" : 684000000
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator",
+  "message" : "HHH000342: Could not obtain connection to query metadata",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+    "message" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+    "name" : "com.mysql.cj.jdbc.exceptions.CommunicationsException",
+    "cause" : {
+      "commonElementCount" : 54,
+      "localizedMessage" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "message" : "Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "name" : "com.mysql.cj.exceptions.CJCommunicationsException",
+      "cause" : {
+        "commonElementCount" : 54,
+        "localizedMessage" : "adminapp-db.default.svc.cluster.local",
+        "message" : "adminapp-db.default.svc.cluster.local",
+        "name" : "java.net.UnknownHostException",
+        "extendedStackTrace" : [ {
+          "class" : "java.net.Inet6AddressImpl",
+          "method" : "lookupAllHostAddr",
+          "file" : "Inet6AddressImpl.java",
+          "line" : -2,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress$2",
+          "method" : "lookupAllHostAddr",
+          "file" : "InetAddress.java",
+          "line" : 929,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAddressesFromNameService",
+          "file" : "InetAddress.java",
+          "line" : 1324,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAllByName0",
+          "file" : "InetAddress.java",
+          "line" : 1277,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAllByName",
+          "file" : "InetAddress.java",
+          "line" : 1193,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "java.net.InetAddress",
+          "method" : "getAllByName",
+          "file" : "InetAddress.java",
+          "line" : 1127,
+          "exact" : false,
+          "location" : "?",
+          "version" : "1.8.0_251"
+        }, {
+          "class" : "com.mysql.cj.protocol.StandardSocketFactory",
+          "method" : "connect",
+          "file" : "StandardSocketFactory.java",
+          "line" : 130,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.protocol.a.NativeSocketConnection",
+          "method" : "connect",
+          "file" : "NativeSocketConnection.java",
+          "line" : 63,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.NativeSession",
+          "method" : "connect",
+          "file" : "NativeSession.java",
+          "line" : 120,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+          "method" : "connectOneTryOnly",
+          "file" : "ConnectionImpl.java",
+          "line" : 948,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        }, {
+          "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+          "method" : "createNewIO",
+          "file" : "ConnectionImpl.java",
+          "line" : 818,
+          "exact" : false,
+          "location" : "mysql-connector-java-8.0.30.jar",
+          "version" : "8.0.30"
+        } ]
+      },
+      "extendedStackTrace" : [ {
+        "class" : "sun.reflect.NativeConstructorAccessorImpl",
+        "method" : "newInstance0",
+        "file" : "NativeConstructorAccessorImpl.java",
+        "line" : -2,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "sun.reflect.NativeConstructorAccessorImpl",
+        "method" : "newInstance",
+        "file" : "NativeConstructorAccessorImpl.java",
+        "line" : 62,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "sun.reflect.DelegatingConstructorAccessorImpl",
+        "method" : "newInstance",
+        "file" : "DelegatingConstructorAccessorImpl.java",
+        "line" : 45,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "java.lang.reflect.Constructor",
+        "method" : "newInstance",
+        "file" : "Constructor.java",
+        "line" : 423,
+        "exact" : false,
+        "location" : "?",
+        "version" : "1.8.0_251"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createException",
+        "file" : "ExceptionFactory.java",
+        "line" : 61,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createException",
+        "file" : "ExceptionFactory.java",
+        "line" : 105,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createException",
+        "file" : "ExceptionFactory.java",
+        "line" : 151,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.exceptions.ExceptionFactory",
+        "method" : "createCommunicationsException",
+        "file" : "ExceptionFactory.java",
+        "line" : 167,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.protocol.a.NativeSocketConnection",
+        "method" : "connect",
+        "file" : "NativeSocketConnection.java",
+        "line" : 89,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.NativeSession",
+        "method" : "connect",
+        "file" : "NativeSession.java",
+        "line" : 120,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+        "method" : "connectOneTryOnly",
+        "file" : "ConnectionImpl.java",
+        "line" : 948,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      }, {
+        "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+        "method" : "createNewIO",
+        "file" : "ConnectionImpl.java",
+        "line" : 818,
+        "exact" : false,
+        "location" : "mysql-connector-java-8.0.30.jar",
+        "version" : "8.0.30"
+      } ]
+    },
+    "extendedStackTrace" : [ {
+      "class" : "com.mysql.cj.jdbc.exceptions.SQLError",
+      "method" : "createCommunicationsException",
+      "file" : "SQLError.java",
+      "line" : 174,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping",
+      "method" : "translateException",
+      "file" : "SQLExceptionsMapping.java",
+      "line" : 64,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+      "method" : "createNewIO",
+      "file" : "ConnectionImpl.java",
+      "line" : 828,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+      "method" : "<init>",
+      "file" : "ConnectionImpl.java",
+      "line" : 448,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.ConnectionImpl",
+      "method" : "getInstance",
+      "file" : "ConnectionImpl.java",
+      "line" : 241,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.mysql.cj.jdbc.NonRegisteringDriver",
+      "method" : "connect",
+      "file" : "NonRegisteringDriver.java",
+      "line" : 198,
+      "exact" : false,
+      "location" : "mysql-connector-java-8.0.30.jar",
+      "version" : "8.0.30"
+    }, {
+      "class" : "com.zaxxer.hikari.util.DriverDataSource",
+      "method" : "getConnection",
+      "file" : "DriverDataSource.java",
+      "line" : 138,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.PoolBase",
+      "method" : "newConnection",
+      "file" : "PoolBase.java",
+      "line" : 364,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.PoolBase",
+      "method" : "newPoolEntry",
+      "file" : "PoolBase.java",
+      "line" : 206,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.HikariPool",
+      "method" : "createPoolEntry",
+      "file" : "HikariPool.java",
+      "line" : 476,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.HikariPool",
+      "method" : "checkFailFast",
+      "file" : "HikariPool.java",
+      "line" : 561,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.pool.HikariPool",
+      "method" : "<init>",
+      "file" : "HikariPool.java",
+      "line" : 115,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "com.zaxxer.hikari.HikariDataSource",
+      "method" : "getConnection",
+      "file" : "HikariDataSource.java",
+      "line" : 112,
+      "exact" : false,
+      "location" : "HikariCP-4.0.3.jar",
+      "version" : "?"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl",
+      "method" : "getConnection",
+      "file" : "DatasourceConnectionProviderImpl.java",
+      "line" : 122,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess",
+      "method" : "obtainConnection",
+      "file" : "JdbcEnvironmentInitiator.java",
+      "line" : 181,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator",
+      "method" : "initiateService",
+      "file" : "JdbcEnvironmentInitiator.java",
+      "line" : 68,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator",
+      "method" : "initiateService",
+      "file" : "JdbcEnvironmentInitiator.java",
+      "line" : 35,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.boot.registry.internal.StandardServiceRegistryImpl",
+      "method" : "initiateService",
+      "file" : "StandardServiceRegistryImpl.java",
+      "line" : 101,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "createService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 263,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "initializeService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 237,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "getService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 214,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory",
+      "method" : "injectServices",
+      "file" : "DefaultIdentifierGeneratorFactory.java",
+      "line" : 175,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "injectDependencies",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 286,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "initializeService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 243,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+      "method" : "getService",
+      "file" : "AbstractServiceRegistryImpl.java",
+      "line" : 214,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.boot.internal.InFlightMetadataCollectorImpl",
+      "method" : "<init>",
+      "file" : "InFlightMetadataCollectorImpl.java",
+      "line" : 173,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.boot.model.process.spi.MetadataBuildingProcess",
+      "method" : "complete",
+      "file" : "MetadataBuildingProcess.java",
+      "line" : 127,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+      "method" : "metadata",
+      "file" : "EntityManagerFactoryBuilderImpl.java",
+      "line" : 1460,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+      "method" : "build",
+      "file" : "EntityManagerFactoryBuilderImpl.java",
+      "line" : 1494,
+      "exact" : false,
+      "location" : "hibernate-core-5.6.10.Final.jar",
+      "version" : "5.6.10.Final"
+    }, {
+      "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+      "method" : "createContainerEntityManagerFactory",
+      "file" : "SpringHibernateJpaPersistenceProvider.java",
+      "line" : 58,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+      "method" : "createNativeEntityManagerFactory",
+      "file" : "LocalContainerEntityManagerFactoryBean.java",
+      "line" : 365,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "method" : "buildNativeEntityManagerFactory",
+      "file" : "AbstractEntityManagerFactoryBean.java",
+      "line" : 409,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+      "method" : "afterPropertiesSet",
+      "file" : "AbstractEntityManagerFactoryBean.java",
+      "line" : 396,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+      "method" : "afterPropertiesSet",
+      "file" : "LocalContainerEntityManagerFactoryBean.java",
+      "line" : 341,
+      "exact" : false,
+      "location" : "spring-orm-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "invokeInitMethods",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 1863,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "initializeBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 1800,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "doCreateBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 620,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "createBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 542,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "lambda$doGetBean$0",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 335,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.DefaultSingletonBeanRegistry",
+      "method" : "getSingleton",
+      "file" : "DefaultSingletonBeanRegistry.java",
+      "line" : 234,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "doGetBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 333,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "getBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 208,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "getBean",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 1154,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "finishBeanFactoryInitialization",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 908,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "refresh",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 583,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+      "method" : "refresh",
+      "file" : "ServletWebServerApplicationContext.java",
+      "line" : 147,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refresh",
+      "file" : "SpringApplication.java",
+      "line" : 734,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refreshContext",
+      "file" : "SpringApplication.java",
+      "line" : 408,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 308,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1306,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1295,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "sn.isi.AdminAppApplication",
+      "method" : "main",
+      "file" : "AdminAppApplication.java",
+      "line" : 10,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 62,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "sun.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 498,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "org.springframework.boot.devtools.restart.RestartLauncher",
+      "method" : "run",
+      "file" : "RestartLauncher.java",
+      "line" : 49,
+      "exact" : false,
+      "location" : "spring-boot-devtools-2.7.3.jar",
+      "version" : "2.7.3"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173586,
+    "nanoOfSecond" : 688000000
+  },
+  "thread" : "restartedMain",
+  "level" : "ERROR",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173586,
+    "nanoOfSecond" : 690000000
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext",
+  "message" : "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173586,
+    "nanoOfSecond" : 694000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Stopping service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173586,
+    "nanoOfSecond" : 707000000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener",
+  "message" : "\r\n\r\nError starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
+{
+  "instant" : {
+    "epochSecond" : 1710173586,
+    "nanoOfSecond" : 738000000
+  },
+  "thread" : "restartedMain",
+  "level" : "ERROR",
+  "loggerName" : "org.springframework.boot.SpringApplication",
+  "message" : "Application run failed",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]",
+    "message" : "Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]",
+    "name" : "org.springframework.beans.factory.BeanCreationException",
+    "cause" : {
+      "commonElementCount" : 21,
+      "localizedMessage" : "Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]",
+      "message" : "Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]",
+      "name" : "org.hibernate.service.spi.ServiceException",
+      "cause" : {
+        "commonElementCount" : 21,
+        "localizedMessage" : "Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set",
+        "message" : "Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set",
+        "name" : "org.hibernate.HibernateException",
+        "extendedStackTrace" : [ {
+          "class" : "org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl",
+          "method" : "determineDialect",
+          "file" : "DialectFactoryImpl.java",
+          "line" : 100,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl",
+          "method" : "buildDialect",
+          "file" : "DialectFactoryImpl.java",
+          "line" : 54,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator",
+          "method" : "initiateService",
+          "file" : "JdbcEnvironmentInitiator.java",
+          "line" : 138,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator",
+          "method" : "initiateService",
+          "file" : "JdbcEnvironmentInitiator.java",
+          "line" : 35,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.boot.registry.internal.StandardServiceRegistryImpl",
+          "method" : "initiateService",
+          "file" : "StandardServiceRegistryImpl.java",
+          "line" : 101,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+          "method" : "createService",
+          "file" : "AbstractServiceRegistryImpl.java",
+          "line" : 263,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+          "method" : "initializeService",
+          "file" : "AbstractServiceRegistryImpl.java",
+          "line" : 237,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+          "method" : "getService",
+          "file" : "AbstractServiceRegistryImpl.java",
+          "line" : 214,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory",
+          "method" : "injectServices",
+          "file" : "DefaultIdentifierGeneratorFactory.java",
+          "line" : 175,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+          "method" : "injectDependencies",
+          "file" : "AbstractServiceRegistryImpl.java",
+          "line" : 286,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+          "method" : "initializeService",
+          "file" : "AbstractServiceRegistryImpl.java",
+          "line" : 243,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+          "method" : "getService",
+          "file" : "AbstractServiceRegistryImpl.java",
+          "line" : 214,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.boot.internal.InFlightMetadataCollectorImpl",
+          "method" : "<init>",
+          "file" : "InFlightMetadataCollectorImpl.java",
+          "line" : 173,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.boot.model.process.spi.MetadataBuildingProcess",
+          "method" : "complete",
+          "file" : "MetadataBuildingProcess.java",
+          "line" : 127,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+          "method" : "metadata",
+          "file" : "EntityManagerFactoryBuilderImpl.java",
+          "line" : 1460,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+          "method" : "build",
+          "file" : "EntityManagerFactoryBuilderImpl.java",
+          "line" : 1494,
+          "exact" : false,
+          "location" : "hibernate-core-5.6.10.Final.jar",
+          "version" : "5.6.10.Final"
+        }, {
+          "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+          "method" : "createContainerEntityManagerFactory",
+          "file" : "SpringHibernateJpaPersistenceProvider.java",
+          "line" : 58,
+          "exact" : false,
+          "location" : "spring-orm-5.3.22.jar",
+          "version" : "5.3.22"
+        }, {
+          "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+          "method" : "createNativeEntityManagerFactory",
+          "file" : "LocalContainerEntityManagerFactoryBean.java",
+          "line" : 365,
+          "exact" : false,
+          "location" : "spring-orm-5.3.22.jar",
+          "version" : "5.3.22"
+        }, {
+          "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+          "method" : "buildNativeEntityManagerFactory",
+          "file" : "AbstractEntityManagerFactoryBean.java",
+          "line" : 409,
+          "exact" : false,
+          "location" : "spring-orm-5.3.22.jar",
+          "version" : "5.3.22"
+        }, {
+          "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+          "method" : "afterPropertiesSet",
+          "file" : "AbstractEntityManagerFactoryBean.java",
+          "line" : 396,
+          "exact" : false,
+          "location" : "spring-orm-5.3.22.jar",
+          "version" : "5.3.22"
+        }, {
+          "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+          "method" : "afterPropertiesSet",
+          "file" : "LocalContainerEntityManagerFactoryBean.java",
+          "line" : 341,
+          "exact" : false,
+          "location" : "spring-orm-5.3.22.jar",
+          "version" : "5.3.22"
+        }, {
+          "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+          "method" : "invokeInitMethods",
+          "file" : "AbstractAutowireCapableBeanFactory.java",
+          "line" : 1863,
+          "exact" : false,
+          "location" : "spring-beans-5.3.22.jar",
+          "version" : "5.3.22"
+        }, {
+          "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+          "method" : "initializeBean",
+          "file" : "AbstractAutowireCapableBeanFactory.java",
+          "line" : 1800,
+          "exact" : false,
+          "location" : "spring-beans-5.3.22.jar",
+          "version" : "5.3.22"
+        } ]
+      },
+      "extendedStackTrace" : [ {
+        "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+        "method" : "createService",
+        "file" : "AbstractServiceRegistryImpl.java",
+        "line" : 275,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+        "method" : "initializeService",
+        "file" : "AbstractServiceRegistryImpl.java",
+        "line" : 237,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+        "method" : "getService",
+        "file" : "AbstractServiceRegistryImpl.java",
+        "line" : 214,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory",
+        "method" : "injectServices",
+        "file" : "DefaultIdentifierGeneratorFactory.java",
+        "line" : 175,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+        "method" : "injectDependencies",
+        "file" : "AbstractServiceRegistryImpl.java",
+        "line" : 286,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+        "method" : "initializeService",
+        "file" : "AbstractServiceRegistryImpl.java",
+        "line" : 243,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.service.internal.AbstractServiceRegistryImpl",
+        "method" : "getService",
+        "file" : "AbstractServiceRegistryImpl.java",
+        "line" : 214,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.boot.internal.InFlightMetadataCollectorImpl",
+        "method" : "<init>",
+        "file" : "InFlightMetadataCollectorImpl.java",
+        "line" : 173,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.boot.model.process.spi.MetadataBuildingProcess",
+        "method" : "complete",
+        "file" : "MetadataBuildingProcess.java",
+        "line" : 127,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+        "method" : "metadata",
+        "file" : "EntityManagerFactoryBuilderImpl.java",
+        "line" : 1460,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl",
+        "method" : "build",
+        "file" : "EntityManagerFactoryBuilderImpl.java",
+        "line" : 1494,
+        "exact" : false,
+        "location" : "hibernate-core-5.6.10.Final.jar",
+        "version" : "5.6.10.Final"
+      }, {
+        "class" : "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider",
+        "method" : "createContainerEntityManagerFactory",
+        "file" : "SpringHibernateJpaPersistenceProvider.java",
+        "line" : 58,
+        "exact" : false,
+        "location" : "spring-orm-5.3.22.jar",
+        "version" : "5.3.22"
+      }, {
+        "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "method" : "createNativeEntityManagerFactory",
+        "file" : "LocalContainerEntityManagerFactoryBean.java",
+        "line" : 365,
+        "exact" : false,
+        "location" : "spring-orm-5.3.22.jar",
+        "version" : "5.3.22"
+      }, {
+        "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+        "method" : "buildNativeEntityManagerFactory",
+        "file" : "AbstractEntityManagerFactoryBean.java",
+        "line" : 409,
+        "exact" : false,
+        "location" : "spring-orm-5.3.22.jar",
+        "version" : "5.3.22"
+      }, {
+        "class" : "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+        "method" : "afterPropertiesSet",
+        "file" : "AbstractEntityManagerFactoryBean.java",
+        "line" : 396,
+        "exact" : false,
+        "location" : "spring-orm-5.3.22.jar",
+        "version" : "5.3.22"
+      }, {
+        "class" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+        "method" : "afterPropertiesSet",
+        "file" : "LocalContainerEntityManagerFactoryBean.java",
+        "line" : 341,
+        "exact" : false,
+        "location" : "spring-orm-5.3.22.jar",
+        "version" : "5.3.22"
+      }, {
+        "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+        "method" : "invokeInitMethods",
+        "file" : "AbstractAutowireCapableBeanFactory.java",
+        "line" : 1863,
+        "exact" : false,
+        "location" : "spring-beans-5.3.22.jar",
+        "version" : "5.3.22"
+      }, {
+        "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+        "method" : "initializeBean",
+        "file" : "AbstractAutowireCapableBeanFactory.java",
+        "line" : 1800,
+        "exact" : false,
+        "location" : "spring-beans-5.3.22.jar",
+        "version" : "5.3.22"
+      } ]
+    },
+    "extendedStackTrace" : [ {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "initializeBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 1804,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "doCreateBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 620,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+      "method" : "createBean",
+      "file" : "AbstractAutowireCapableBeanFactory.java",
+      "line" : 542,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "lambda$doGetBean$0",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 335,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.DefaultSingletonBeanRegistry",
+      "method" : "getSingleton",
+      "file" : "DefaultSingletonBeanRegistry.java",
+      "line" : 234,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "doGetBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 333,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.beans.factory.support.AbstractBeanFactory",
+      "method" : "getBean",
+      "file" : "AbstractBeanFactory.java",
+      "line" : 208,
+      "exact" : false,
+      "location" : "spring-beans-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "getBean",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 1154,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "finishBeanFactoryInitialization",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 908,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.context.support.AbstractApplicationContext",
+      "method" : "refresh",
+      "file" : "AbstractApplicationContext.java",
+      "line" : 583,
+      "exact" : false,
+      "location" : "spring-context-5.3.22.jar",
+      "version" : "5.3.22"
+    }, {
+      "class" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+      "method" : "refresh",
+      "file" : "ServletWebServerApplicationContext.java",
+      "line" : 147,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refresh",
+      "file" : "SpringApplication.java",
+      "line" : 734,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "refreshContext",
+      "file" : "SpringApplication.java",
+      "line" : 408,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 308,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1306,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "org.springframework.boot.SpringApplication",
+      "method" : "run",
+      "file" : "SpringApplication.java",
+      "line" : 1295,
+      "exact" : false,
+      "location" : "spring-boot-2.7.3.jar",
+      "version" : "2.7.3"
+    }, {
+      "class" : "sn.isi.AdminAppApplication",
+      "method" : "main",
+      "file" : "AdminAppApplication.java",
+      "line" : 10,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "sun.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 62,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "sun.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 498,
+      "exact" : false,
+      "location" : "?",
+      "version" : "1.8.0_251"
+    }, {
+      "class" : "org.springframework.boot.devtools.restart.RestartLauncher",
+      "method" : "run",
+      "file" : "RestartLauncher.java",
+      "line" : 49,
+      "exact" : false,
+      "location" : "spring-boot-devtools-2.7.3.jar",
+      "version" : "2.7.3"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "admin-app"
+}
