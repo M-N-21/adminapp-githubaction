@@ -15,8 +15,9 @@ spring:
         registration:
           keycloak:
             client-id: login-app
-            authorization-grant-type: authorization_code
+            #authorization-grant-type: authorization_code
             scope: openid
+            authorization-grant-type: client_credentials
         provider:
           keycloak:
             issuer-uri: http://keycloak-service:8080/realms/SpringBootKeycloak
