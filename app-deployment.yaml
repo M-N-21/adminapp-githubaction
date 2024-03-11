@@ -16,7 +16,7 @@ spec:
         - name: springboot-crud-k8s
           image: mn21/admin-app:1.0
           ports:
-            - containerPort: 8080
+            - containerPort: 8081
           env:   # Setting Enviornmental Variables
             - name: DB_HOST
               value: adminapp-db
