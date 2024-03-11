@@ -20,11 +20,11 @@ spring:
             authorization-grant-type: client_credentials
         provider:
           keycloak:
-            issuer-uri: http://keycloak-service:8080/realms/SpringBootKeycloak/account
+            issuer-uri: http://keycloak-service:8080/realms/SpringBootKeycloak/account/
             user-name-attribute: preferred_username
       resourceserver:
         jwt:
-          issuer-uri: http://keycloak-service/realms/SpringBootKeycloak/account
+          issuer-uri: http://localhost/realms/SpringBootKeycloak/account/
   jpa:
     hibernate:
       ddl-auto: update
