@@ -61,7 +61,7 @@ services:
       - pgadmin_data:/var/lib/pgadmin
 
   # keycloak
-  c:
+  keycloak-service:
     image: quay.io/keycloak/keycloak:latest
     container_name: keycloak-service
     environment:
