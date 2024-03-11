@@ -39,7 +39,7 @@ services:
       - "8081:8081"
     depends_on:
       - mysql-admin-db
-    restart: unless-stopped
+    #restart: unless-stopped
 
   # postgres service
   postgres-service:
@@ -72,7 +72,7 @@ services:
   # keycloak
   keycloak-service:
     image: quay.io/keycloak/keycloak:latest
-    container_name: container_keycloak-admin-db
+    container_name: keycloak-service
     environment:
       KC_DB: postgres
       KC_DB_URL: jdbc:postgresql://postgres-service:5432/keycloak_db
