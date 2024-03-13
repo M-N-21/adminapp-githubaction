@@ -12,23 +12,23 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: adminapp-db
+  name: mysql-admin-db
 spec:
   selector:
     matchLabels:
-      app: adminapp-db
+      app: mysql-admin-db
   replicas: 1
   template:
     metadata:
       labels:
-        app: adminapp-db
+        app: mysql-admin-db
     spec:
       containers:
         - name: mysql
           image: mysql:8.0
           env:
             - name: DB_HOST
-              value: adminapp-db
+              value: mysql-admin-db
             - name: MYSQL_ROOT_PASSWORD
               value: ""
             - name: MYSQL_DATABASE
@@ -53,11 +53,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: adminapp-db
+  name: mysql-admin-db
 spec:
   type: NodePort  # Change le type de service à NodePort
   ports:
     - port: 3306
       targetPort: 3306
   selector:
-    app: adminapp-db
+    app: mysql-admin-db

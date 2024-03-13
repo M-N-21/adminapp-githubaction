@@ -1,4 +1,3 @@
-/*
 package sn.isi.config;
 
 import org.slf4j.Logger;
@@ -20,11 +19,9 @@ public class KeycloakLogoutHandler implements LogoutHandler {
     private static final Logger logger = LoggerFactory.getLogger(KeycloakLogoutHandler.class);
     private final RestTemplate restTemplate = new RestTemplate();
 
-    */
-/*public KeycloakLogoutHandler(RestTemplate restTemplate) {
+    /*public KeycloakLogoutHandler(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
-    }*//*
-
+    }*/
 
     @Override
     public void logout(HttpServletRequest request, HttpServletResponse response,
@@ -48,4 +45,3 @@ public class KeycloakLogoutHandler implements LogoutHandler {
     }
 
 }
-*/
