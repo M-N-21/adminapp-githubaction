@@ -20,11 +20,9 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 8081
           resources:
-            limits:
-              cpu: 0.2
-              memory: "200Mi"
+
           env:
             - name: MYSQL_DATABASE
               value: adminapp-db
