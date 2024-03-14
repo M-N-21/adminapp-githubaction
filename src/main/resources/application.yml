@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://mysql:3306/adminapp-db?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://10.96.0.1:30011/adminapp-db?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password:
     driverClassName: com.mysql.cj.jdbc.Driver
@@ -19,7 +19,7 @@ spring:
             scope: openid
         provider:
           keycloak:
-            issuer-uri: http://keycloak-service:8080/realms/SpringBootKeycloak
+            issuer-uri: http://keycloak:8080/realms/SpringBootKeycloak
             user-name-attribute: preferred_username
       resourceserver:
         jwt:
