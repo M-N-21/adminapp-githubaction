@@ -1,99 +1,80 @@
 # Projet admin-app
 
 Ce projet est un projet Spring Boot. Il utilise Java 8, maven, docker, logs,...
+Dans le but de faire du CI/CD avec github pour builder nos applications et les pusher vers notre dockerhub, nous allons créer un dossier `.github` dans la racine du projet et dans lequel il y aura un dossier `workflows`, qui à son tour aura le fichier `build.yml`.
+# Build and Push Docker Image to Docker Hub
 
-## Structure du Projet
+Ce workflow GitHub Actions est déclenché à chaque push sur les branches main ou release, à l'exception des changements apportés aux fichiers README.md.
 
-Le projet est organisé en plusieurs packages pour une meilleure séparation des préoccupations :
+## Fonctionnalités
 
-### `sn.isi.entities`
+- Ce workflow utilise Maven pour construire le projet Java.
+- Il publie ensuite l'image Docker générée sur Docker Hub.
 
-Ce package contient les entités JPA avec les annotations nécessaires pour la génération de la base de données.
+## Étapes
 
-### `sn.isi.dto`
+### Étape 1: Récupération du Code Source
 
-Ce package contient des classes DTO (Data Transfer Object) pour les mêmes entités sans les annotations. Cela permet d'éviter de manipuler directement les objets de la base de données dans les vues.
+Cette étape utilise l'action `checkout@v2` pour récupérer le code source du référentiel.
 
-### `sn.isi.dao`
+### Étape 2: Configuration de JDK 8
 
-Ce package contient des interfaces DAO (Data Access Object) pour chaque entité qui étendent `JpaRepository` pour la gestion des opérations CRUD.
+Cette étape configure JDK 8 en utilisant l'action `setup-java@v2`. Elle spécifie également la version de Java, la distribution (Temurin) et met en cache Maven.
 
-### `sn.isi.mapping`
+### Étape 3: Construction avec Maven
 
-Ce package contient des interfaces pour les mappers qui permettent de transformer chaque entité en sa correspondance DTO et vice versa.
+Dans cette étape, le projet Java est construit en utilisant Maven avec la commande `mvn -B package`.
 
-### `sn.isi.exception`
+### Étape 4: Publication sur Docker
 
-Ce package contient des classes personnalisées pour la gestion des exceptions.
+Enfin, l'action `spring-boot:build-image` de Maven est utilisée pour construire une image Docker à partir du projet Spring Boot. L'image est publiée sur Docker Hub en utilisant les informations d'identification stockées dans les secrets de GitHub.
 
-### `sn.isi.service`
+## Secrets
 
-Ce package contient des services pour chaque entité qui gèrent les opérations CRUD et d'autres plus personnalisés associées.
+Ce workflow utilise les secrets suivants :
 
-### `sn.isi.config`
+- `DOCKER_USER`: Nom d'utilisateur Docker Hub.
+- `DOCKER_TOKEN`: Jeton d'accès Docker Hub.
 
-Ce package contient des configurations pour l'application, y compris la gestion des messages sources ainsi que la configuration des logs
+# Creation du token pour notre repos
+### Se connecter à DockerHub puis cliquer sur my account
+![Nom de l'image](src/main/resources/captures/d1.PNG)
+### Ensuite dans security puis cliquer sur New access token
+![Nom de l'image](src/main/resources/captures/d2.PNG)
+### Donner un nom à votre token puis generate
+![Nom de l'image](src/main/resources/captures/d3.PNG)
+### Resultat token generé
+![Nom de l'image](src/main/resources/captures/d4.PNG)
 
-### `sn.isi.controller`
+# Creation des tokens `DOCKER_USER` et `DOCKER_TOKEN` dans github
+### Allez sur settings
+![Nom de l'image](src/main/resources/captures/g1.PNG)
+### Puis dans Secrets and variables, Actions
+![Nom de l'image](src/main/resources/captures/g2.PNG)
+### Creer les tokens sachant que dans `DOCKER_USER` on aura le username de votre compte DockerHub et dans `DOCKER_TOKEN` le token que vous avez géréré pour votre application au niveau de dockerhub
+![Nom de l'image](src/main/resources/captures/g3.PNG)
 
-Ce package contient des RestControllers pour chaque entité pour gérer les opérations REST.
-
-### `sn.isi`
-
-Ce package contient la classe de base pour le démarrage de l'application Spring Boot.
-
-## Annotations Utilisées
-
-- Les entités JPA dans le package `sn.isi.entities` sont annotées avec `@Entity` pour indiquer qu'elles sont persistantes.
-- Les interfaces DAO dans le package `sn.isi.dao` étendent `JpaRepository` et sont annotées avec `@Repository`.
-- Les classes services dans le package `sn.isi.service` sont annotées avec `@Service`.
-- Les RestControllers dans le package `sn.isi.controller` sont annotés avec `@RestController`.
-- Les classes de configuration dans le package `sn.isi.config` sont annotées avec `@Configuration`.
-- Les classes de gestion des exceptions dans le package `sn.isi.exception` peuvent utiliser des annotations telles que `@ControllerAdvice` pour gérer les exceptions globalement.
-
-Au niveau du projet dans `sn.isi.resources`, un dossier assez utile où on va mettre nos vues mais aussi c'est à ce niveau que nous avons fait la définissions des messages d'erreur dans `messages.properties` ainsi que la confuguration de base de `log4j` dans `log4j2.xml`. Sans oublier l'un des fichiers fichiers les plus importants `application.yml` ou nous avons défini le port de démarrage de l'application, le datasource pour la base de données, l'orm JPA à travers `hibernate`
-
-## Docker
-
-Vu que nous avons utilisé du docker pour la conteneurisation voici une petite explication de notre fichier `docker-compose.yml` qui se trouve à la racine du projet
-Ce fichier est un fichier de configuration YAML utilisé pour définir des services Docker dans le contexte de Docker Compose. Docker Compose est un outil qui permet de définir et de gérer des applications Docker multi-conteneurs. Il permet de spécifier l'ensemble des services, des réseaux et des volumes nécessaires pour qu'une application fonctionne. Ci après le contenu de ce fichier et les explications de chaque ligne.
-
+# Workflow
+Le workflow a été programmé pour que à chaque push dans la branche `main`, il s'execute.
 ```
-services: # C'est la section principale où vous définissez les services Docker. Chaque service représente un conteneur.
-
-  mysql-admin-db: # Un service qui utilise l'image MySQL version 8.0. Il crée un conteneur nommé container_mysql-admin-db.
-    image: mysql:8.0
-    container_name: container_mysql-admin-db
-    environment: # Les variables d'environnement spécifiées sont utilisées pour configurer le conteneur MySQL, y compris le mot de passe root, la base de données, et les informations d'identification d'utilisateur.
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: adminapp-db
-      MYSQL_USER: user
-      MYSQL_PASSWORD: user
-    ports: # Mappe le port 3306 du conteneur MySQL sur le port 3306 de l'hôte.
-      - 3306:3306
-    volumes: # Montre un volume Docker nommé mysql_data sur le répertoire /var/lib/mysql à l'intérieur du conteneur. Cela est utilisé pour persister les données de la base de données au-delà de la durée de vie du conteneur.
-      - mysql_data:/var/lib/mysql
-    healthcheck: # Définit une vérification de santé pour le conteneur en exécutant la commande mysqladmin ping.
-      test: mysqladmin ping -h 127.0.0.1 -u $$MYSQL_USER --password=$$MYSQL_PASSWORD
-
-  phpmyadmin-admin-db: # Un service qui utilise l'image PHPMyAdmin la plus récente. Il crée un conteneur nommé container_phpmyadmin-admindb.
-    container_name: container_phpmyadmin-admindb
-    image: phpmyadmin/phpmyadmin:latest
-    ports: # Mappe le port 8085 de l'hôte sur le port 80 du conteneur PHPMyAdmin.
-      - 8085:80
-    environment: # Configure PHPMyAdmin avec les informations nécessaires pour se connecter au serveur MySQL (PMA_HOST, PMA_USER, PMA_PASSWORD).
-      MYSQL_ROOT_PASSWORD: root
-      PMA_HOST: mysql-admin-db
-      PMA_USER: user
-      PMA_PASSWORD: user
-    depends_on: # Indique que ce service dépend du service mysql-admin-db et ne devrait démarrer que lorsque mysql-admin-db est prêt.
-      - mysql-admin-db
-    restart: unless-stopped # Spécifie que le conteneur doit être redémarré sauf s'il a été explicitement arrêté.
-
-volumes: # Cette section définit un volume nommé mysql_data avec un driver local. Ce volume est utilisé pour stocker les données persistantes du conteneur MySQL.
-  mysql_data:
-    driver: local
+on:
+  push:
+    branches: [ main, release ]
+    paths-ignore:
+      - '**/README.md'
 ```
+![Nom de l'image](src/main/resources/captures/p1.PNG)
+Après le push on verra l'execution de notre workflow au niveau de Action si tout ce passe bien il sera vert et notre image docker sera généré et mis sur notre dockerhub grace à cette instruction à suivre tout en se basant du génie `maven`
+```
+run: |
+          mvn -B spring-boot:build-image -Dspring-boot.build-image.publish=true \
+              -Ddocker.user=${{ secrets.DOCKER_USER }} -Ddocker.token=${{ secrets.DOCKER_TOKEN }} \
+              -DskipTests
+```
+## Resultats
+![Nom de l'image](src/main/resources/captures/g4.PNG)
+image sur dockerhub au niveau de nos repositories
+![Nom de l'image](src/main/resources/captures/d6.PNG)
 
 ### Bien à vous `M.N.21`
 
