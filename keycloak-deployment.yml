@@ -59,6 +59,6 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
-      nodePort: 30000  # Port de nœud que vous exposez pour accéder au service depuis l'extérieur
+      nodePort: 30010  # Port de nœud que vous exposez pour accéder au service depuis l'extérieur
   selector:
     app: keycloak

@@ -5,12 +5,16 @@ metadata:
   labels:
     app: mysql
 spec:
+  type: NodePort
   ports:
     - port: 3306
+      targetPort: 3306
+      nodePort: 30011
   selector:
     app: mysql
     tier: mysql
-  clusterIP: None
+
+
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim

@@ -1,9 +1,17 @@
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: dns-test-pod
+  name: dns-test-deployment
 spec:
-  containers:
-    - name: dns-test-container
-      image: busybox
-      command: ['sh', '-c', 'while true; do nslookup adminapp-db; sleep 10; done']
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dns-test
+  template:
+    metadata:
+      labels:
+        app: dns-test
+    spec:
+      containers:
+        - name: dns-test-container
+          image: mn21/dns-test-image:latest

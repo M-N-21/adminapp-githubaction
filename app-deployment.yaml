@@ -15,7 +15,7 @@ spec:
         app: adminapp
     spec:
       containers:
-        - name: demo-app-spring
+        - name: adminapp
           image: mn21/admin-app:1.0
           imagePullPolicy: IfNotPresent
           ports:
