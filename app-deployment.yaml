@@ -1,45 +1,53 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: adminapp-deployment
+  name: adminapp
+  labels:
+    app: adminapp
 spec:
+  replicas: 1
   selector:
     matchLabels:
-      app: springboot-k8s-mysql
-  replicas: 1
+      app: adminapp
   template:
     metadata:
       labels:
-        app: springboot-k8s-mysql
+        app: adminapp
     spec:
       containers:
-        - name: springboot-crud-k8s
+        - name: demo-app-spring
           image: mn21/admin-app:1.0
+          imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8081
-          env:   # Setting Enviornmental Variables
-            - name: DB_HOST
-              value: adminapp-db
-            - name: MYSQL_ROOT_PASSWORD
-              value: ""
+            - name: http
+              containerPort: 8080
+          resources:
+            limits:
+              cpu: 0.2
+              memory: "200Mi"
+          env:
             - name: MYSQL_DATABASE
               value: adminapp-db
+            - name: MYSQL_ROOT_PASSWORD
+              value:
+            - name: MYSQL_PASSWORD
+              value:
             - name: MYSQL_ALLOW_EMPTY_PASSWORD
               value: "yes"
-
-
 ---
-
-apiVersion: v1 # Kubernetes API version
-kind: Service # Kubernetes resource kind we are creating
-metadata: # Metadata of the resource kind we are creating
-  name: springboot-crud-svc
+apiVersion: v1
+kind: Service
+metadata:
+  name: adminapp
+  labels:
+    app: adminapp
 spec:
+  type: LoadBalancer
   selector:
-    app: springboot-k8s-mysql
+    app: adminapp
   ports:
-    - protocol: "TCP"
-      port: 8081 # The port that the service is running on in the cluster
-      targetPort: 8081 # The port exposed by the service
-  type: NodePort # type of the service.
-
+    - protocol: TCP
+      name: http
+      port: 8081
+      targetPort: 8081
+      nodePort: 30000

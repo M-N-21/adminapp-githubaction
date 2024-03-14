@@ -1,7 +1,23 @@
 apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  ports:
+    - port: 3306
+  selector:
+    app: mysql
+    tier: mysql
+  clusterIP: None
+---
+apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: adminapp-db-pvc
+  name: mysql-pvc
+  labels:
+    app: mysql
 spec:
   accessModes:
     - ReadWriteOnce
@@ -12,52 +28,44 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mysql-admin-db
+  name: mysql
+  labels:
+    app: mysql
 spec:
   selector:
     matchLabels:
-      app: mysql-admin-db
-  replicas: 1
+      app: mysql
+      tier: mysql
+  strategy:
+    type: Recreate
   template:
     metadata:
       labels:
-        app: mysql-admin-db
+        app: mysql
+        tier: mysql
     spec:
       containers:
-        - name: mysql
-          image: mysql:8.0
+        - image: mysql:8.0
+          name: mysql
           env:
-            - name: DB_HOST
-              value: mysql-admin-db
-            - name: MYSQL_ROOT_PASSWORD
-              value: ""
             - name: MYSQL_DATABASE
               value: adminapp-db
+            - name: MYSQL_ROOT_PASSWORD
+              value:
+            - name: MYSQL_PASSWORD
+              value:
             - name: MYSQL_ALLOW_EMPTY_PASSWORD
               value: "yes"
+          livenessProbe:
+            tcpSocket:
+              port: 3306
           ports:
             - containerPort: 3306
+              name: mysql
           volumeMounts:
-            - name: data
+            - name: mysql-persistent-storage
               mountPath: /var/lib/mysql
-          command:
-            - mysqld
-            - --bind-address=0.0.0.0  # Permet les connexions distantes
       volumes:
-        - name: data
+        - name: mysql-persistent-storage
           persistentVolumeClaim:
-            claimName: adminapp-db-pvc
-
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: mysql-admin-db
-spec:
-  type: NodePort  # Change le type de service à NodePort
-  ports:
-    - port: 3306
-      targetPort: 3306
-  selector:
-    app: mysql-admin-db
+            claimName: mysql-pvc
